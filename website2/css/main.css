@@ -1,0 +1,269 @@
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Lato', Verdana;
+    font-size: 100%;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.section1 {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1%;
+    
+}
+
+.nav > ul > li {
+    display: inline-block;
+}
+.nav > ul > li.active a{
+    color: #1952e9;
+}
+
+.nav > ul > li > a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    padding: 0.1em 0.9em;
+    color: #444444;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
+}
+.nav > ul > li > a:hover {
+    color: #1952e9;
+}
+
+.title1 {
+    font-family: 'Lato', Verdana;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 38%;
+    margin-top: 0px;
+    color: #444444;
+}
+
+.inf1 {
+    font-family: 'Lato', Verdana;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 15px;
+    color: #444444;
+    text-align: justify;
+}
+
+.title2 {
+    font-family: 'Lato', Verdana;
+    font-size: 24px;
+    margin: 0 auto;
+    width: 55%;
+    margin-top: 25px;
+    color: #444444;
+}
+
+.inf2 {
+    font-family: 'Lato', Verdana;
+    font-size: 20px;
+    font-weight: 90%;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 1%;
+    color: #444444;
+}
+
+
+.title3 {
+    font-family: OpenSans;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 94%;
+    margin-top: 10px;
+    color: #444444;
+}
+
+.inf3 {
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0 auto;
+    width: 94%;
+    color: #444444;
+}
+
+.name {
+    font-family: OpenSans;
+    width: 19%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-left: 32px;
+}
+
+.connection {
+    font-family: OpenSans;
+    width: 32%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+
+.send {
+    font-family: OpenSans;
+    width: 14%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-left: 12px;
+    cursor: pointer;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
+}
+
+.send:hover {
+    color: white;
+    background: #1952e9;
+}
+
+@font-face {
+font-family: "OpenSans";  
+src: url("../fonts/OpenSans.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    user-select: none;
+}
+
+.card {
+    width: 80%;
+    background: white;
+    border-radius: 10px;
+    padding: 2%;
+    margin-top: 1%;
+
+}
+
+
+/*Стили для партнеров*/
+
+.title2 {
+    font-family: OpenSans;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 94%;
+    margin-top: 10px;
+    color: #444444; 
+}
+
+.title2 {
+    font-family: OpenSans;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 94%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #444444;
+}
+
+.title4 {
+    font-family: OpenSans;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 94%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #444444;
+}
+
+.title5 {
+    font-family: OpenSans;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 94%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #444444;
+}
+
+
+.title6 {
+    font-family: OpenSans;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 94%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #444444;
+}
+
+.title7 {
+    font-family: OpenSans;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 94%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #444444;
+}
+
+.title8 {
+    font-family: OpenSans;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 94%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #444444;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardP {
+    width: 60%;
+    background: white;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 1%;
+    
+}
